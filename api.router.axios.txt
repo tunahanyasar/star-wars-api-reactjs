@@ -1,0 +1,105 @@
+// ===== PROJE DOKÜMANTASYONU =====
+/*
+Axios Kullanırken
+   - Her zaman try-catch bloğu içinde kullanılmalı
+   - API yanıtları kontrol edilmeli
+   - Hata durumları ele alınmalı
+   - Loading durumları yönetilmeli
+   - Gereksiz isteklerden kaçınılmalı (useEffect dependency array kontrolü)
+
+Örnek
+   try {
+     const response = await axios.get('API_URL');
+     response.data: API'den gelen veri
+    response.status: HTTP durum kodu
+   } catch (error) {
+     console.error('Hata:', error);
+   }
+*/
+
+/*Router 
+   - BrowserRouter: Tarayıcı geçmişini kullanır
+   - Routes: Route'ları yöneten container
+   - Route: URL'e göre bileşen gösterir
+   - Link: Sayfa içi navigasyon sağlar
+
+Router Kullanırken 
+   - Router en üst seviyede olmalı
+   - Route path'leri doğru sıralanmalı (özelden genele)
+   - Link'ler doğru path'lere yönlendirmeli
+   - useParams ile dinamik parametreler alınmalı
+   - useNavigate ile programatik yönlendirme yapılmalı
+
+Router Hook'ları:
+   - useParams: URL parametrelerini alır
+   - useNavigate: Programatik yönlendirme yapar
+   - useLocation: Mevcut URL bilgisini verir
+*/
+
+/*
+API İstekleri
+State Hazırlığı:
+    - Veri için state oluştur (useState)
+    - Loading durumu için state oluştur
+    - Hata durumu için state oluştur
+
+Veri Çekme Fonksiyonu:
+    - async/await kullan
+    - try-catch bloğu içinde çalıştır
+    - Loading durumunu yönet
+    - Hata durumlarını ele al
+    - Başarılı durumda state'i güncelle
+
+useEffect ile Çağırma:
+    - Gerekli dependency'leri belirt
+    - Cleanup fonksiyonu ekle
+    - Gereksiz çağrıları önle
+
+Örnek API Çekme Yapısı:
+   const [data, setData] = useState(null);
+   const [loading, setLoading] = useState(true);
+   const [error, setError] = useState(null);
+
+   useEffect(() => {
+     const fetchData = async () => {
+       try {
+         setLoading(true);
+         const response = await axios.get('API_URL');
+         setData(response.data);
+       } catch (error) {
+         setError(error.message);
+       } finally {
+         setLoading(false);
+       }
+     };
+
+     fetchData();
+   }, [dependency]);
+
+3. Sayfalama (Pagination) İşlemi:
+   - next/previous URL'leri kontrol et
+   - Tüm sayfaları döngü ile gez
+   - Verileri birleştir
+   - Tekrar eden verileri filtrele
+*/
+
+// ===== PROJE ÖZEL NOTLARI =====
+/*
+1. Star Wars API (SWAPI) Kullanımı:
+   - Sayfalı yapıda veri sunar
+   - Her sayfada 10 veri bulunur
+   - next/previous URL'leri ile sayfalama yapılır
+   - Tekrar eden veriler olabilir, filtreleme gerekir
+
+2. Veri Akışı:
+   App.jsx
+   ├── Header (Arama ve Navigasyon)
+   ├── StarshipList (Gemi Listesi)
+   │   └── StarshipCard (Gemi Kartı)
+   └── StarshipDetail (Gemi Detayı)
+
+3. Önemli Fonksiyonlar:
+   - fetchAllStarships: Tüm gemileri çeker
+   - handleSearch: Arama işlemini yönetir
+   - handleMouseMove: Arka plan animasyonunu yönetir
+*/
