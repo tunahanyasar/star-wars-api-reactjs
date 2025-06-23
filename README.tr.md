@@ -15,8 +15,7 @@ Star Wars evrenindeki uzay gemilerini görüntüleyebileceğiniz, modern ve kull
 
 ## 🌐 Canlı Demo
 
-<!-- Varsa canlı demo linkinizi buraya ekleyin -->
-Henüz yayınlanmadı.
+Canlı siteyi ziyaret edin : [Star Wars API](https://star-wars-api-reactjs.vercel.app/)
 
 ---
 

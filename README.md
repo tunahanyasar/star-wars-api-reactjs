@@ -16,8 +16,7 @@ A modern and user-friendly web application for browsing starships in the Star Wa
 
 ## 🌐 Live Demo
 
-<!-- Add your live demo link here if available -->
-Not deployed yet.
+Visit the live site: [Star Wars API](https://star-wars-api-reactjs.vercel.app/)
 
 ---
 
@@ -201,4 +200,3 @@ This project is a web application developed to browse and examine starships in t
 
 This project was developed using [SWAPI (Star Wars API)](https://swapi.dev/). The official SWAPI documentation was referenced for API documentation and data structure.
 
---- 
