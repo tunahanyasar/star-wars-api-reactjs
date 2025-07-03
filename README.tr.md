@@ -45,6 +45,20 @@ Uygulamayı açmak için tarayıcınızda `http://localhost:5173` adresine gidin
 
 ---
 
+
+## 🎮 Nasıl Kullanılır?
+
+1. **Ana Sayfa:**
+   - Tüm uzay gemilerinin listesini görüntüleyin
+   - Arama kutusunu kullanarak gemileri filtreleyin
+   - Herhangi bir gemiye tıklayarak detaylarını görüntüleyin
+
+2. **Detay Sayfası:**
+   - Seçilen uzay gemisinin tüm özelliklerini görüntüleyin
+   - Geri dön butonu ile ana sayfaya dönün
+
+---
+
 ## 🗂️ Proje Yapısı
 
 ```
@@ -135,32 +149,6 @@ star-wars-api-reactjs/
 
 ---
 
-# :paperclip: Sayfa Çıktıları
-
-### Fullpage
-![Fullpage](./src/assets/screenshots/fullpage.png)
-
-### Details Page
-![Detailpage](./src/assets/screenshots/detailpage.png)
-
-### Search 
-![Search](./src/assets/screenshots/search.png)
-
----
-
-## 🎮 Nasıl Kullanılır?
-
-1. **Ana Sayfa:**
-   - Tüm uzay gemilerinin listesini görüntüleyin
-   - Arama kutusunu kullanarak gemileri filtreleyin
-   - Herhangi bir gemiye tıklayarak detaylarını görüntüleyin
-
-2. **Detay Sayfası:**
-   - Seçilen uzay gemisinin tüm özelliklerini görüntüleyin
-   - Geri dön butonu ile ana sayfaya dönün
-
----
-
 ## 🔍 Detaylı Açıklama
 
 ### Proje Amacı ve Kapsamı
@@ -189,10 +177,26 @@ Bu proje, Star Wars evrenindeki uzay gemilerini görüntülemek ve detaylarını
 
 ---
 
-## 👤 İletişim
+# :paperclip: Sayfa Çıktıları
 
-[Tunahan Yaşar](https://github.com/tunahanyasar)  
-[LinkedIn](https://www.linkedin.com/in/tunahan-yasar/)
+### Fullpage
+![Fullpage](./src/assets/screenshots/fullpage.png)
+
+### Details Page
+![Detailpage](./src/assets/screenshots/detailpage.png)
+
+### Search 
+![Search](./src/assets/screenshots/search.png)
+
+
+---
+
+## 📞 İletişim
+
+[Tunahan Yaşar](https://github.com/tunahanyasar)
+
+* GitHub: [@tunahanyasar](https://github.com/tunahanyasar)
+* LinkedIn: [Tunahan Yaşar](https://www.linkedin.com/in/tunahan-yasar/) 
 
 ---
 

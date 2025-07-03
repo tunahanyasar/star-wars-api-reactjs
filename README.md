@@ -46,6 +46,19 @@ Open your browser and go to `http://localhost:5173` to view the app.
 
 ---
 
+## 🎮 How to Use
+
+1. **Home Page:**
+   - View the list of all starships
+   - Use the search box to filter starships
+   - Click any starship to view its details
+
+2. **Detail Page:**
+   - View all features of the selected starship
+   - Use the back button to return to the home page
+
+---
+
 ## 🗂️ Project Structure
 
 ```
@@ -135,31 +148,6 @@ star-wars-api-reactjs/
 * Asynchronous Programming
 
 ---
-# :paperclip: Screenshots
-
-### Fullpage
-![Fullpage](./src/assets/screenshots/fullpage.png)
-
-### Details Page
-![Detailpage](./src/assets/screenshots/detailpage.png)
-
-### Search 
-![Search](./src/assets/screenshots/search.png)
-
----
-
-## 🎮 How to Use
-
-1. **Home Page:**
-   - View the list of all starships
-   - Use the search box to filter starships
-   - Click any starship to view its details
-
-2. **Detail Page:**
-   - View all features of the selected starship
-   - Use the back button to return to the home page
-
----
 
 ## 🔍 Detailed Explanation
 
@@ -186,13 +174,27 @@ This project is a web application developed to browse and examine starships in t
 - **Loading Indicators:** Feedback to the user while data is loading
 - **Easy Navigation:** Quick access to the detail page
 - **Search:** Instant filtering with real-time search
+---
+# :paperclip: Screenshots
+
+### Fullpage
+![Fullpage](./src/assets/screenshots/fullpage.png)
+
+### Details Page
+![Detailpage](./src/assets/screenshots/detailpage.png)
+
+### Search 
+![Search](./src/assets/screenshots/search.png)
+
 
 ---
 
-## 👤 Contact
+## 📞 Contact
 
-[Tunahan Yaşar](https://github.com/tunahanyasar)  
-[LinkedIn](https://www.linkedin.com/in/tunahan-yasar/)
+[Tunahan Yaşar](https://github.com/tunahanyasar)
+
+* GitHub: [@tunahanyasar](https://github.com/tunahanyasar)
+* LinkedIn: [Tunahan Yaşar](https://www.linkedin.com/in/tunahan-yasar/) 
 
 ---
 
